@@ -125,7 +125,7 @@ header{
   padding:10px;
 }
 
-@media screen and (max-device-width:1150px), screen and (max-width:1150px) ,screen and (max-device-height:780px) {
+@media screen and (max-device-width:800px), screen and (max-width:800px) { 
   body {
    width:100%;
   }
@@ -133,7 +133,7 @@ header{
    width:100%;
   }
   .barra{
-    flex-direction: column;
+   flex-direction:column;
   }
   .logo{
    width:100%;
@@ -144,19 +144,26 @@ header{
   .social{
    width:100%;
   }
+ 
   .contenido {
    width:100%;
    flex-direction: column;
   }
+  
+  .columnas{
+    flex-direction: column;
+  }
+ 
   .publi1{
-   width:90%;
+   width:85%;
+   margin-left:25px;
   }
   .publi2{
-   width:90%;
+   width:85%;
+   margin-left:25px;
   }
  
  }
-
 
 
 
