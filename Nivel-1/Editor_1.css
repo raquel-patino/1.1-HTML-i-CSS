@@ -125,6 +125,37 @@ header{
   padding:10px;
 }
 
+@media screen and (max-device-width:1150px), screen and (max-width:1150px) ,screen and (max-device-height:780px) {
+  body {
+   width:100%;
+  }
+  header {
+   width:100%;
+  }
+  .barra{
+    flex-direction: column;
+  }
+  .logo{
+   width:100%;
+  }
+  .nav{
+   width:100%;
+  }
+  .social{
+   width:100%;
+  }
+  .contenido {
+   width:100%;
+   flex-direction: column;
+  }
+  .publi1{
+   width:90%;
+  }
+  .publi2{
+   width:90%;
+  }
+ 
+ }
 
 
 
