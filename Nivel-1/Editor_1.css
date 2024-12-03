@@ -47,6 +47,7 @@ header{
   background-color: rgb(41, 76, 147);
   border-radius: 10px;
   padding: 10px;
+  margin-right: 5px;
 }
 
 .banner{
@@ -63,13 +64,15 @@ header{
   display: flex;
   flex-direction: row;
   background-color: rgb(48, 31, 50);
+  padding:10px;
 }
 .articulos-container{
   display:flex;
   flex-direction: column;
   background-color: purple;
-  margin:20px;
+  margin:10px;
   flex:3;
+  padding:12px;
 }
 
 .columnas{
@@ -103,21 +106,20 @@ header{
   flex-direction: column;
   background-color: rgb(199, 147, 2);
   flex:1;
-  margin:20px;
+  margin:7px;
+  padding:20px;
 }
 .publi1{
   background-color: yellow;
-  padding:10px;
-  margin-top:20px;
-  margin-bottom: 5px;
-  margin-left:40px;
-  margin-right:40px;
+  padding:22px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  
 }
 .publi2{
   background-color: yellow;
-  padding:10px;
-  margin-left:40px;
-  margin-right:40px;
+  padding:22px;
+
 }
 .footer{
   background-color: rgb(246, 216, 47);
@@ -125,45 +127,9 @@ header{
   padding:10px;
 }
 
-@media screen and (max-device-width:800px), screen and (max-width:800px) { 
-  body {
-   width:100%;
-  }
-  header {
-   width:100%;
-  }
-  .barra{
-   flex-direction:column;
-  }
-  .logo{
-   width:100%;
-  }
-  .nav{
-   width:100%;
-  }
-  .social{
-   width:100%;
-  }
- 
-  .contenido {
-   width:100%;
-   flex-direction: column;
-  }
-  
-  .columnas{
-    flex-direction: column;
-  }
- 
-  .publi1{
-   width:85%;
-   margin-left:25px;
-  }
-  .publi2{
-   width:85%;
-   margin-left:25px;
-  }
- 
- }
+
+
+
 
 
 
